@@ -8,7 +8,7 @@ st.title("Decision Tree Classifier App")
 st.write("This app uses a pre-trained Decision Tree model to make predictions.")
 
 # Load the pickled model from a local file
-MODEL_PATH = r"C:\Users\hp\OneDrive\codes\Project_Titanic_Survivor_Predicition\app\pipe.pkl"  # Replace with the actual path to your model file
+MODEL_PATH = r"app\pipe.pkl"  # Replace with the actual path to your model file
 try:
     with open(MODEL_PATH, "rb") as file:
         model = pickle.load(file)
