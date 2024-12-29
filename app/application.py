@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 st.title("Decision Tree Classifier App")
 st.write("This app uses a pre-trained Decision Tree model to make predictions and has an accuracy of 65% .")
 st.write("it uses pipeline to structure the overall codebase")
-st.image("app/pipeline.png", caption="Model Pipeline", use_column_width=True)
+st.image("app/pipeline.png", caption="Model Pipeline", use_container_width=True)
 
 # Load the pickled model from a local file
 MODEL_PATH = "app/pipe.pkl"  # Replace with the actual path to your model file
